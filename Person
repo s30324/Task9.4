@@ -1,0 +1,15 @@
+abstract class Person {
+    String firstName;
+    String lastName;
+    int birthdayYear;
+
+    public Person(String firstName, String lastName, int birthdayYear) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.birthdayYear = birthdayYear;
+    }
+    public int getAge(){
+        int age = 2024-birthdayYear;
+        return age;
+    }
+}
